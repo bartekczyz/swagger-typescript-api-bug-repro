@@ -1,0 +1,15 @@
+{
+  "name": "swagger-typescript-api-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "swagger-typescript-api -p src/api.yaml -o out -n types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-typescript-api": "^11.1.3"
+  }
+}
